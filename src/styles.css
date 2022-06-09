@@ -4,11 +4,10 @@
 	--secondary-color: #f5f2fe;
 }
 body{
-	margin-top: 100px;
+	margin:100px 0;
 }
 
 h1, h2, h3 {
-	text-align: center;
 	margin: 0;
 }
 h2 {
@@ -70,4 +69,25 @@ p {
 
 .mail:hover{
 	text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+	h1 {
+		font-size: 40px;
+		line-height: 1.5;
+	}
+
+	h2 {
+		font-size: 38px;
+		text-align: center;
+	}
+	.contact-link {
+		display: block;
+		text-align: center;
+		margin: 0 20px;
+	}
+
+	.mail {
+		font-size: 24px;
+	}
 }
